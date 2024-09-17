@@ -2,13 +2,9 @@
 /**
   ******************************************************************************
   * @file           : main.c
-  * @brief          : Demonstrates double buffered circular DMA transmission
-  * 				  of an ASCII character pattern with a UART peripheral,
-  * 				  while also blinking the on-board LED to show if the CPU is
-  * 				  blocked by the transmission.
-  * 				  This method is best suited for applications
-  * 				  that require continuous, larger data transmission at high
-  * 				  speeds.
+  * @brief          : Demonstrates DMA transmission of an ASCII pattern with a 
+  *           UART peripheral, while also blinking the on-board LED to show that 
+  * 				  the CPU is not blocked by the transmission.
   *
   * 				  UART BaudRate: 115200
   *
